@@ -1,0 +1,12 @@
+.label {
+background: url('../images/millworks2.png') no-repeat;
+width: 335px;
+height: 15px;
+position: absolute; 
+left: 50px; 
+bottom: 10px;
+ }
+
+.map, .column.fsc {
+	padding-bottom: 10px;
+}

@@ -1,0 +1,29 @@
+.coda-slider-wrapper { margin-bottom: 15px; }
+.coda-slider-no-js .coda-slider { height: 560px; overflow: auto !important; padding-right: 0px }
+.coda-slider, .coda-slider .panel { width: 1082; height: 560px; }
+
+.coda-slider-wrapper.arrows .coda-slider, .coda-slider-wrapper.arrows .coda-slider .panel { width: 1082px; d}
+.coda-slider-wrapper.arrows .coda-slider { margin: 0 }
+	
+.coda-nav ul li a.current { background: #39c }
+
+.coda-slider p.loading { padding: 20px; text-align: center }
+.coda-nav ul {  }
+.coda-slider-wrapper { clear: both; overflow: auto }
+.coda-slider { float: left; overflow: hidden; position: relative }
+.coda-slider .panel { display: block; float: left }
+.coda-slider .panel-container { position: relative }
+.coda-slider-wrapper.arrows {width: 1082px;}
+.coda-nav-left {display: none}
+.coda-nav-right a { 
+	display: block; 
+	float: right;
+	background: url('../images/arrow.gif') 0 0 no-repeat;
+	text-decoration: none;
+	color: #000;
+	height: 60px;
+	width: 50px;
+	 }
+.coda-nav-right a:hover {
+	background-position: 0 -60px;
+}

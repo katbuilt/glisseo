@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="no-js">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>MCM – Millworks Custom Manufacturing (2001) Inc.</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	
+	<link href="css/reset.css" media="screen, projection" rel="stylesheet" type="text/css" />
+	<link href="css/mcm.css" media="screen, projection" rel="stylesheet" type="text/css" />
+	<link href="css/slider.css" media="screen, projection" rel="stylesheet" type="text/css" />
+	<link href="css/mcm-ipad.css" media='screen and (device-width: 768px)' rel='stylesheet'  />
+	<link href="css/mcm-devices.css" media='screen and (min-device-width : 320px) and (max-device-width : 480px)' rel='stylesheet'  />
+	<!--[if lt IE 9]>
+		<link rel="stylesheet" type="text/css" href="css/mcm-ie.css" />
+	<![endif]-->
+	
+<!-- Begin JavaScript -->
+	<script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/jquery.coda-slider-2.0.js"></script>
+	<script type="text/javascript" src="js/jquery.leanModal.min.js"></script>
+
+	 <script type="text/javascript">
+        $().ready(function() {
+            $('#coda-slider-1, #coda-slider-2, #coda-slider-3, #coda-slider-4, #coda-slider-5, #coda-slider-6, #coda-slider-7, #coda-slider-8, #coda-slider-9, #coda-slider-10, #coda-slider-11, #coda-slider-12').codaSlider({
+				autoHeightEaseDuration: 300,
+				autoHeightEaseFunction: "easeInOutExpo",
+				slideEaseDuration: 300,
+				slideEaseFunction: "easeInOutExpo",
+				dynamicArrows: true,
+				dynamicTabs: false
+			});
+        });
+     </script>
+		<script type="text/javascript">
+			$(function() {
+ 			$('a[rel*=leanModal]').leanModal({ top : 110, overlay: 0.5, closeButton: ".modal_close" });		
+			});
+		</script>
+		<script type="text/javascript">
+		function nav(){
+		$('#main-nav ul li').hover(function() {
+			 $(this).find('ul:first').stop().animate({height: '365px', opacity: '100'},{queue:false, duration:200, easing: 'easeInSine'})
+			 	}, function() {
+			 $(this).find('ul:first').stop().animate({height: '0px', opacity: '0'},{queue:false, duration:100, easing: 'easeInCirc'}) 
+		});
+
+		};
+
+		$(document).ready(function() {
+		nav();
+		});
+		</script>
+		<script>
+		$(document).ready(function() {
+			$('ul#subNav a').click(function(event){
+					//prevent the default action for the click event
+					event.preventDefault();
+
+					//get the full url - like mysitecom/index.htm#home
+					var full_url = this.href;
+
+					//split the url by # and get the anchor target name - home in mysitecom/index.htm#home
+					var parts = full_url.split("#");
+					var trgt = parts[1];
+
+					//get the top offset of the target anchor
+					var target_offset = $("#"+trgt).offset();
+					var target_top = target_offset.top;
+
+					//goto that anchor by setting the body scroll top to anchor top
+					$('html, body').animate({scrollTop:target_top - 103}, 500);
+				});
+
+				$("a[href='#top']").click(function() {
+					  $("html, body").animate({ scrollTop: 0 }, "normal");
+					  return false;
+				});
+		});
+		</script>
+
+
+<!-- End JavaScript -->
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37690910-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+<body>
+	<header>
+ 		<div id="header">
+				<h1 id="logo">MCM &ndash; Millworks Custom Manufacturing (2001) Inc.</h1>
+				<a href="#top" href="#"><img id="mcm" src="images/millworkscustommanufacturing-mcmlogo.gif" /></a>
+				<nav>
+				  <div id="main-nav">
+				    <ul>
+				      <li><a id="go" rel="leanModal" class="about" href="#about">About</a></li>
+				      
+				
+							<!-- make adjustments below to adjust the Projects nav dropdown -->
+							<!-- make adjustments below to adjust the Projects nav dropdown -->
+							<!-- make adjustments below to adjust the Projects nav dropdown -->
+							
+							
+							<li><a class="projects">Projects</a>
+				        <ul id="subNav">
+					
+				          <li class="left">
+												<div class="item">
+									    		  <h3><a href="#coda-slider-1">Downsview Park Orchard Pavilion</a></h3>
+										          <p>2012</p>
+												</div>
+
+												<div class="item">
+									    		  <h3><a href="#coda-slider-2">Private Residence Toronto</a></h3>
+										          <p>2011</p>
+												</div>
+
+												<div class="item">
+									    		  <h3><a href="#coda-slider-3">Corporate Office Toronto</a></h3>
+										          <p>2011</p>
+												</div>
+
+												<div class="item">
+									    		  <h3><a href="#coda-slider-4">Luma</a></h3>
+										          <p>2010</p>
+												</div>
+
+												<div class="item">
+									    		  <h3><a href="#coda-slider-5">Royal Ontario Museum &ndash;<br/>Schad Gallery</a></h3>
+										          <p>2009</p>
+												</div>
+							
+				          </li>
+
+				          <li class="right">
+												<div class="item">
+									    		  <h3><a href="#coda-slider-6">Native Child</a></h3>
+										          <p>2009</p>
+												</div>
+
+												<div class="item">
+									    		  <h3><a href="#coda-slider-7">Corporate Office Toronto</a></h3>
+										          <p>2009</p>
+												</div>
+
+												<div class="item">
+									    		  <h3><a href="#coda-slider-8">Art Gallery of Ontario &ndash;<br/>Frum Collection</a></h3>
+										          <p>2008</p>
+												</div>
+
+												<div class="item">
+									    		  <h3><a href="#coda-slider-9">Private Residence Toronto</a></h3>
+										          <p>2007</p>
+					  						</div>
+
+												<div class="item">
+									    		  <h3><a href="#coda-slider-10">Canadian Museum of Inuit Art</a></h3>
+										          <p>2007</p>
+												</div>
+
+												<div class="item">
+									    		  <h3><a href="#coda-slider-11">Corporate Office</a></h3>
+										          <p>2003</p>
+												</div>							
+							
+				          </li>
+				
+									<!-- make adjustments above to adjust the Projects nav dropdown -->
+									<!-- make adjustments above to adjust the Projects nav dropdown -->
+									<!-- make adjustments above to adjust the Projects nav dropdown -->
+				
+				        </ul>
+				      </li>
+				      <li><a id="go" rel="leanModal" class="capabilities" href="#capabilities">Capabilities</a></li>
+				      <li><a id="go" rel="leanModal" class="location" href="#location">Location</a></li>
+				      <li><a id="go" class="login" href="https://mcm.yourhsa.ca/" target="_blank">Login</a></li>
+				    </ul>
+				  </div>
+				</nav>
+				<div id="contact">
+					Phone 416 760 0222<br />
+					Fax 416 760 0228<br />
+					<a href="mailto:contact@mcm2001.ca">contact@mcm2001.ca</a>
+				</div><!--close contact-->
+				<div id="logos">
+					<span>MCM Certifications: FSC Forest Stewardship Council, Rainforest Alliance, AWMAC</span>
+					<a id="go" rel="leanModal" name="certifications" href="#certifications" class="opacity"><img src="images/mcm-certifications.gif" class="cert" / ></a>
+				</div><!--close certifications-->
+		</div><!--close header-->
+	  </header>
+	
+		<div id="about">
+			<a class="modal_close" href="#"></a>
+			<div class="columns">
+			<p>Established in Toronto in 1988 as a privately owned and operated firm, MCM has worked with leading architects, designers, and corporations to realize the development of custom environments for national and international brands and institutions.</p>
+			<p>MCM is recognized as a leader in custom millworking and fabrication, and has established a reputation for craftsmanship, flexibility, aggressive delivery schedules, and the precise execution of complex, high profile projects.</p>
+			</div>
+			<div class="label about"></div>
+			
+		</div>
+		
+		<div id="capabilities">
+			<a class="modal_close" href="#"></a>
+			
+
+				<div class="columns">
+					<div class="column">
+					<h2>Understand</h2>
+					<strong>Understand vision, needs, and expectations.</strong>
+					<p>We approach projects with the careful and intelligent rigour that comes from extensive experience with industry leaders and leading edge projects.</p>
+				</div><!-- close column-->
+
+				<div class="column">
+					<h2>Envision</h2>
+					<strong>Envision the process from concept to product.</strong>
+					<p>Our creative and highly skilled development team directs the fabrication of each element of the project, and is capable of devising complex systems that exceed needs and expectations.</p>
+				</div><!-- close column-->
+			
+				<div class="column last">
+					<h2>Build</h2>
+					<strong>Custom manufacture the product and deliver quality craftsmanship</strong>
+					<p>Evolving facilities and processes integrates state-of-the-art equipment with highly skilled craftsmen to execute vision and plans to the highest standard.</p>
+				</div><!-- close column-->		
+			
+				<div class="note">
+					<p>Have a project you would like to discuss further? <br /> 
+						Give us a call and let’s talk about it 416 760 0222 or <a href="mailto:contact@mcm2001.ca" class="link">email us</a>.</p>
+				</div><!--close note-->	
+		</div><!--close columns-->
+						
+			<div class="label capabilities"></div>
+		</div>
+	
+		<div id="location">
+			<a class="modal_close" href="#"></a>
+			
+			<div class="columns">			
+				<div class="map">
+					<a class="opacity" href="https://maps.google.ca/maps?q=25+Bertal+Road,+Unit+%239+Toronto,+ON+M6M+4M7&hl=en&ll=43.692747,-79.487844&spn=0.007703,0.013958&sll=43.693523,-79.486138&sspn=0.007703,0.013958&gl=ca&hnear=25+Bertal+Rd+%239,+Toronto,+Toronto+Division,+Ontario+M6M+4L5&t=m&z=17" target="_blank"><img src="images/mcm-25bertalrd.jpg" /></a>
+				</div><!--close map-->
+			
+				<div class="address">
+					<p>Millworks Custom Manufacturing (2001) Inc.</p>
+					<p><a class="link" href="https://maps.google.ca/maps?q=25+Bertal+Road,+Unit+%239+Toronto,+ON+M6M+4M7&hl=en&ll=43.692747,-79.487844&spn=0.007703,0.013958&sll=43.693523,-79.486138&sspn=0.007703,0.013958&gl=ca&hnear=25+Bertal+Rd+%239,+Toronto,+Toronto+Division,+Ontario+M6M+4L5&t=m&z=17" target="_blank">25 Bertal Road, Unit #9<br />
+						Toronto, ON  M6M 4M7</a></p>
+					<p>416 760 0222 &ndash; Phone<br />
+						416 760 0228 &ndash; Fax<br />
+						<a href="mailto:contact@mcm2001.ca" class="link">contact@mcm2001.ca</a></p>
+				</div><!--close address-->
+			</div><!--close info-->
+			<div class="label location"></div>
+			</div>
+		</div>
+
+		<div id="certifications">
+			<a class="modal_close" href="#"></a>
+				
+				<div class="columns">
+					<div class="column fsc">
+						<a href="http://www.fsccanada.org/" target="_blank"><img src="images/certification-fsc.gif" class="fsc"/></a>
+						<p>The Forest Stewardship Council is an independent, non-governmental, not-for-profit organization established to promote the responsible management of the world’s forests.</p>
+						<p>MCM is proud to announce that we are FSC certified (FSC C014397) under the following standards:</p>
+						<p>Chain of Custody: <span>FSC-STD-40-004</span><br />
+						Controlled Wood: <span>FSC-STD-40-005</span><br />
+						Reclaimed Wood: <span>FSC-STD-40-007</span></p>
+						<p><a href="http://www.fsccanada.org/" class="link" target="_blank">Learn more</a></p>
+					</div><!--close column-->
+					
+					<div class="column rainforest">
+						<a href="http://www.rainforest-alliance.org/" target="_blank"><img src="images/certification-rainforestalliance.gif" class="rainforest" /></a>
+						<p>We are Rainforest Alliance Certified. Farms, forestry operations and other businesses that meet the appropriate certification and verification standards earn access to the Rainforest Alliance family of marks for on- and off-product promotions</p>
+						<p><a href="http://www.rainforest-alliance.org/" class="link" target="_blank">Learn more</a></p>
+					</div><!--close column-->					
+					
+					<div class="column awmac last">
+						<a href="http://www.awmac.com/" target="_blank"><img src="images/certification-awmac.gif" /></a>
+						<p>We are proud members of the Architectural Woodwork Manufacturers Association of Canada.</p>
+						<p>The main thrust of the association has always been to promote and improve quality standards while keeping pace with new products and technology in the Architectural Woodwork Industry.</p>
+						<p><a href="http://www.awmac.com/" class="link" target="_blank">Learn more</a></p>
+					</div><!--close column-->					
+					
+					
+				</div><!--close columns-->
+				
+			<div class="label certifications"></div>
+		</div>		
+		
+		
+			
+	<div id="container">
+		    <noscript>
+		      <div class="column-noscript">
+				<p>Established in Toronto in 1988 as a privately owned and operated firm, MCM has worked with leading architects, designers, and corporations to realize the development of custom environments for national and international brands and institutions.</p>
+				<p>MCM is recognized as a leader in custom millworking and fabrication, and has established a reputation for craftsmanship, flexibility, aggressive delivery schedules, and the precise execution of complex, high profile projects.</p>
+		        </div>
+		
+						<div class="columns">
+							<div class="column">
+							<h2>Understand</h2>
+							<strong>Understand vision, needs, and expectations.</strong>
+							<p>We approach projects with the careful and intelligent rigour that comes from extensive experience with industry leaders and leading edge projects.</p>
+						</div><!-- close column-->
+
+						<div class="column">
+							<h2>Envision</h2>
+							<strong>Envision the process from concept to product.</strong>
+							<p>Our creative and highly skilled development team directs the fabrication of each element of the project, and is capable of devising complex systems that exceed needs and expectations.</p>
+						</div><!-- close column-->
+
+						<div class="column last">
+							<h2>Build</h2>
+							<strong>Custom manufacture the product and deliver quality craftsmanship</strong>
+							<p>Evolving facilities and processes integrates state-of-the-art equipment with highly skilled craftsmen to execute vision and plans to the highest standard.</p>
+						</div><!-- close column-->		
+
+				</div><!--close columns-->
+		    </noscript>
+
+
+				<!-- ___________________________________________ top of project stack ___________________________________________ -->
+
+				<!-- make adjustments to each project slot below. note the div id number <div id="coda-slider-1"> must match the <a href rel="coda-slider-1"> -->
+
+				<!-- PROJECT SLOT 1 -->
+				<!-- PROJECT SLOT 1 -->
+				<!-- PROJECT SLOT 1 -->
+
+		    <div class="coda-slider-wrapper">
+		        <div class="coda-slider preload" id="coda-slider-1">
+		            <div class="panel">
+		                <div class="panel-wrapper">
+							<a href="#2" class="xtrig" rel="coda-slider-1"><img src="images/projects/pdp1.jpg" /></a>
+		                </div>
+		            </div>
+		            <div class="panel">
+		                <div class="panel-wrapper">
+							<a href="#3" class="xtrig" rel="coda-slider-1"><img src="images/projects/pdp2.jpg" /></a>
+		                </div>
+		            </div>
+		            <div class="panel">
+		                <div class="panel-wrapper">
+							<a href="#4" class="xtrig" rel="coda-slider-1"><img src="images/projects/pdp3.jpg" /></a>
+		                </div>
+		            </div>
+		            <div class="panel">
+		                <div class="panel-wrapper">
+							<a href="#1" class="xtrig" rel="coda-slider-1"><img src="images/projects/pdp4.jpg" /></a>
+		                </div>
+		            </div>
+		        </div><!-- .coda-slider -->
+	
+				<div class="description">
+					<p class="title">Downsview Park Orchard Pavilion <span class="year">2012</span>
+						<br/>with Natale and Scott <span class="photographer">Photography Ben Rahn</span>
+					</p>
+				</div><!--close description-->
+				<div class="divider"></div>
+		    </div><!-- .coda-slider-wrapper -->
+
+			  
+			  <!-- PROJECT SLOT 2 -->
+			  <!-- PROJECT SLOT 2 -->
+			  <!-- PROJECT SLOT 2 -->
+			
+		    <div class="coda-slider-wrapper">
+		        <div class="coda-slider preload" id="coda-slider-2">
+		            <div class="panel">
+		                <div class="panel-wrapper">
+							<a href="#2" class="xtrig" rel="coda-slider-2"><img src="images/projects/residence20111.jpg" /></a>
+		                </div>
+		            </div>
+		            <div class="panel">
+		                <div class="panel-wrapper">
+							<a href="#3" class="xtrig" rel="coda-slider-2"><img src="images/projects/residence20112.jpg" /></a>
+		                </div>
+		            </div>
+		            <div class="panel">
+		                <div class="panel-wrapper">
+							<a href="#4" class="xtrig" rel="coda-slider-2"><img src="images/projects/residence20113.jpg" /></a>
+		                </div>
+		            </div>
+		            <div class="panel">
+		                <div class="panel-wrapper">
+							<a href="#1" class="xtrig" rel="coda-slider-2"><img src="images/projects/residence20114.jpg" /></a>
+		                </div>
+		            </div>		
+		        </div><!-- .coda-slider -->
+		
+				<div class="description">
+					<p class="title">Private Residence Toronto <span class="year">2011</span>
+						<br/>with Levitt Goodman Architects <span class="photographer">Photography Ben Rahn</span>
+					</p>
+				</div><!--close description-->	
+				<div class="divider"></div>
+		   	</div><!-- .coda-slider-wrapper -->
+
+
+
+			  <!-- PROJECT SLOT 3 -->
+			  <!-- PROJECT SLOT 3 -->
+			  <!-- PROJECT SLOT 3 -->
+
+			    <div class="coda-slider-wrapper">
+			        <div class="coda-slider preload" id="coda-slider-3">
+			            <div class="panel">
+			                <div class="panel-wrapper">
+								<a href="#2" class="xtrig" rel="coda-slider-3"><img src="images/projects/corporate20111.jpg" /></a>
+			                </div>
+			            </div>
+			            <div class="panel">
+			                <div class="panel-wrapper">
+								<a href="#3" class="xtrig" rel="coda-slider-3"><img src="images/projects/corporate20112.jpg" /></a>
+			                </div>
+			            </div>
+			            <div class="panel">
+			                <div class="panel-wrapper">
+								<a href="#1" class="xtrig" rel="coda-slider-3"><img src="images/projects/corporate20113.jpg" /></a>
+			                </div>
+			            </div>
+			        </div><!-- .coda-slider -->
+
+					<div class="description">
+						<p class="title">Corporate Office Toronto <span class="year">2011</span>
+							<br/>with KPMB Architects
+						</p>
+					</div><!--close description-->
+					<div class="divider"></div>
+			  	</div><!-- .coda-slider-wrapper -->
+
+
+
+			  <!-- PROJECT SLOT 4 -->
+			  <!-- PROJECT SLOT 4 -->
+			  <!-- PROJECT SLOT 4 -->
+			
+			    <div class="coda-slider-wrapper">
+			        <div class="coda-slider preload" id="coda-slider-4">
+			            <div class="panel">
+			                <div class="panel-wrapper">
+								<a href="#2" class="xtrig" rel="coda-slider-4"><img src="images/projects/luma1.jpg" /></a>
+			                </div>
+			            </div>
+			            <div class="panel">
+			                <div class="panel-wrapper">
+								<a href="#3" class="xtrig" rel="coda-slider-4"><img src="images/projects/luma2.jpg" /></a>
+			                </div>
+			            </div>
+			            <div class="panel">
+			                <div class="panel-wrapper">
+								<a href="#4" class="xtrig" rel="coda-slider-4"><img src="images/projects/luma3.jpg" /></a>
+			                </div>
+			            </div>
+			            <div class="panel">
+			                <div class="panel-wrapper">
+								<a href="#1" class="xtrig" rel="coda-slider-4"><img src="images/projects/luma4.jpg" /></a>
+			                </div>
+			            </div>
+
+			        </div><!-- .coda-slider -->
+
+					<div class="description">
+						<p class="title">Luma <span class="year">2010</span>
+							<br/>with KPMB Architects <span class="photographer">Photography Tom Arban</span>
+						</p>
+					</div><!--close description-->
+					<div class="divider"></div>
+			  	</div><!-- .coda-slider-wrapper -->	
+			
+			
+			
+				  <!-- PROJECT SLOT 5 -->
+				  <!-- PROJECT SLOT 5 -->
+				  <!-- PROJECT SLOT 5 -->
+	    
+			    <div class="coda-slider-wrapper">
+			        <div class="coda-slider preload" id="coda-slider-5">
+			            <div class="panel">
+			                <div class="panel-wrapper">
+								<a href="#2" class="xtrig" rel="coda-slider-5"><img src="images/projects/rom1.jpg" /></a>
+			                </div>
+			            </div>
+			            <div class="panel">
+			                <div class="panel-wrapper">
+								<a href="#1" class="xtrig" rel="coda-slider-5"><img src="images/projects/rom2.jpg" /></a>
+			                </div>
+			            </div>
+			        </div><!-- .coda-slider -->
+
+					<div class="description">
+						<p class="title">Royal Ontario Museum &ndash; Schad Gallery <span class="year">2009</span>
+							<br/>with Reich+Petch
+						</p>
+					</div><!--close description-->
+					<div class="divider"></div>
+				</div><!-- .coda-slider-wrapper -->	
+	
+	
+
+			  <!-- PROJECT SLOT 6 -->
+			  <!-- PROJECT SLOT 6 -->
+			  <!-- PROJECT SLOT 6 -->	
+
+			    <div class="coda-slider-wrapper">
+			        <div class="coda-slider preload" id="coda-slider-6">
+			            <div class="panel">
+			                <div class="panel-wrapper">
+								<a href="#2" class="xtrig" rel="coda-slider-6"><img src="images/projects/native1.jpg" /></a>
+			                </div>
+			            </div>
+			            <div class="panel">
+			                <div class="panel-wrapper">
+								<a href="#3" class="xtrig" rel="coda-slider-6"><img src="images/projects/native2.jpg" /></a>
+			                </div>
+			            </div>
+			            <div class="panel">
+			                <div class="panel-wrapper">
+								<a href="#1" class="xtrig" rel="coda-slider-6"><img src="images/projects/native3.jpg" /></a>
+			                </div>
+			            </div>
+			        </div><!-- .coda-slider -->
+
+					<div class="description">
+						<p class="title">Native Child <span class="year">2009</span>
+							<br/>with Levitt Goodman <span class="photographer">Photography Jesse Jackson &amp; A-frame</span>
+						</p>
+					</div><!--close description-->
+					<div class="divider"></div>
+				</div><!-- .coda-slider-wrapper -->	
+			
+			
+			
+			  <!-- PROJECT SLOT 7 -->
+			  <!-- PROJECT SLOT 7 -->
+			  <!-- PROJECT SLOT 7 -->
+			
+			    <div class="coda-slider-wrapper">
+			        <div class="coda-slider preload" id="coda-slider-7">
+			            <div class="panel">
+			                <div class="panel-wrapper">
+								<a href="#2" class="xtrig" rel="coda-slider-7"><img src="images/projects/corporate20091.jpg" /></a>
+			                </div>
+			            </div>
+			            <div class="panel">
+			                <div class="panel-wrapper">
+								<a href="#3" class="xtrig" rel="coda-slider-7"><img src="images/projects/corporate20092.jpg" /></a>
+			                </div>
+			            </div>
+			            <div class="panel">
+			                <div class="panel-wrapper">
+								<a href="#1" class="xtrig" rel="coda-slider-7"><img src="images/projects/corporate20093.jpg" /></a>
+			                </div>
+			            </div>
+			        </div><!-- .coda-slider -->
+
+					<div class="description">
+						<p class="title">Corporate Office Toronto <span class="year">2009</span>
+							<br/>with Bartlett and Associates <span class="photographer">Photography Tom Arban</span>
+						</p>
+					</div><!--close description-->
+					<div class="divider"></div>
+				</div><!-- .coda-slider-wrapper -->	
+				
+				
+				
+			  <!-- PROJECT SLOT 8 -->
+			  <!-- PROJECT SLOT 8 -->
+			  <!-- PROJECT SLOT 8 -->
+
+			    <div class="coda-slider-wrapper">
+			        <div class="coda-slider preload" id="coda-slider-8">
+			            <div class="panel">
+			                <div class="panel-wrapper">
+								<a href="#2" class="xtrig" rel="coda-slider-8"><img src="images/projects/frum1.jpg" /></a>
+			                </div>
+			            </div>
+			            <div class="panel">
+			                <div class="panel-wrapper">
+								<a href="#1" class="xtrig" rel="coda-slider-8"><img src="images/projects/frum2.jpg" /></a>
+			                </div>
+			            </div>
+			        </div><!-- .coda-slider -->
+
+					<div class="description">
+						<p class="title">Art Gallery of Ontario &ndash; Frum Collection <span class="year">2008</span>
+							<br/>with Shim Sutcliffe <span class="photographer">Photography James Dow</span>
+						</p>
+					</div><!--close description-->
+					<div class="divider"></div>
+				</div><!-- .coda-slider-wrapper -->	
+				
+				
+
+			  <!-- PROJECT SLOT 9 -->
+			  <!-- PROJECT SLOT 9 -->
+			  <!-- PROJECT SLOT 9 -->
+			
+			    <div class="coda-slider-wrapper">
+			        <div class="coda-slider preload" id="coda-slider-9">
+			            <div class="panel">
+			                <div class="panel-wrapper">
+								<a href="#2" class="xtrig" rel="coda-slider-9"><img src="images/projects/residence20071.jpg" /></a>
+			                </div>
+			            </div>
+			            <div class="panel">
+			                <div class="panel-wrapper">
+								<a href="#1" class="xtrig" rel="coda-slider-9"><img src="images/projects/residence20072.jpg" /></a>
+			                </div>
+			            </div>
+			        </div><!-- .coda-slider -->
+
+					<div class="description">
+						<p class="title">Private Residence Toronto <span class="year">2007</span>
+							<br/>with Faulding Architecture <span class="photographer">Photography Tom Arban</span>
+						</p>
+					</div><!--close description-->
+					<div class="divider"></div>
+				</div><!-- .coda-slider-wrapper -->
+
+
+
+			  <!-- PROJECT SLOT 10 -->
+			  <!-- PROJECT SLOT 10 -->
+			  <!-- PROJECT SLOT 10 -->
+
+			    <div class="coda-slider-wrapper">
+			        <div class="coda-slider preload" id="coda-slider-10">
+			            <div class="panel">
+			                <div class="panel-wrapper">
+								<a href="#2" class="xtrig" rel="coda-slider-10"><img src="images/projects/inuit1.jpg" /></a>
+			                </div>
+			            </div>
+			            <div class="panel">
+			                <div class="panel-wrapper">
+								<a href="#3" class="xtrig" rel="coda-slider-10"><img src="images/projects/inuit2.jpg" /></a>
+			                </div>
+			            </div>
+			            <div class="panel">
+			                <div class="panel-wrapper">
+								<a href="#1" class="xtrig" rel="coda-slider-10"><img src="images/projects/inuit3.jpg" /></a>
+			                </div>
+			            </div>
+			        </div><!-- .coda-slider -->
+
+					<div class="description">
+						<p class="title">Canadian Museum of Inuit Art <span class="year">2007</span>
+							<br/>with Diamond and Schmitt <span class="photographer">Photography Tom Arban</span>
+						</p>
+					</div><!--close description-->
+					<div class="divider"></div>
+				</div><!-- .coda-slider-wrapper -->
+				
+				
+			  <!-- PROJECT SLOT 11 -->
+			  <!-- PROJECT SLOT 11 -->
+			  <!-- PROJECT SLOT 11 -->
+								
+				<div class="coda-slider-wrapper">
+			        <div class="coda-slider preload" id="coda-slider-11">
+			            <div class="panel">
+			                <div class="panel-wrapper">
+								<a href="#2" class="xtrig" rel="coda-slider-11"><img src="images/projects/corporate20031.jpg" /></a>
+			                </div>
+			            </div>
+			            <div class="panel">
+			                <div class="panel-wrapper">
+								<a href="#1" class="xtrig" rel="coda-slider-11"><img src="images/projects/corporate20032.jpg" /></a>
+			                </div>
+			            </div>
+			        </div><!-- .coda-slider -->
+
+					<div class="description">
+						<p class="title">Corporate Office Toronto <span class="year">2003</span>
+							<br/>with Teeple Architects
+						</p>
+					</div><!--close description-->
+					<div class="divider"></div>
+				</div><!-- .coda-slider-wrapper -->
+
+
+			  <!-- PROJECT SLOT 12 -->
+			  <!-- PROJECT SLOT 12 -->
+			  <!-- PROJECT SLOT 12 -->
+
+
+				<!-- past project 12 here -->
+				
+				
+				
+				
+				
+				<!-- ___________________________________________ end of stack / page ___________________________________________ -->
+
+			    <noscript>
+					<div class="map">
+						<a class="opacity" href="https://maps.google.ca/maps?q=25+Bertal+Road,+Unit+%239+Toronto,+ON+M6M+4M7&hl=en&ll=43.692747,-79.487844&spn=0.007703,0.013958&sll=43.693523,-79.486138&sspn=0.007703,0.013958&gl=ca&hnear=25+Bertal+Rd+%239,+Toronto,+Toronto+Division,+Ontario+M6M+4L5&t=m&z=17" target="_blank"><img src="images/mcm-25bertalrd.jpg" /></a>
+					</div><!--close map-->
+
+					<div class="address">
+						<p>Millworks Custom Manufacturing (2001) Inc.</p>
+						<p><a class="link" href="https://maps.google.ca/maps?q=25+Bertal+Road,+Unit+%239+Toronto,+ON+M6M+4M7&hl=en&ll=43.692747,-79.487844&spn=0.007703,0.013958&sll=43.693523,-79.486138&sspn=0.007703,0.013958&gl=ca&hnear=25+Bertal+Rd+%239,+Toronto,+Toronto+Division,+Ontario+M6M+4L5&t=m&z=17" target="_blank">25 Bertal Road, Unit #9<br />
+							Toronto, ON  M6M 4M7</a></p>
+						<p>416 760 0222 &ndash; Phone<br />
+							416 760 0228 &ndash; Fax<br />
+							<a href="mailto:contact@mcm2001.ca" class="link">contact@mcm2001.ca</a></p>
+					</div><!--close address-->
+			    </noscript>
+
+
+
+
+					<div id="footer">
+						<a href="mailto:contact@mcm2001.ca" class="footer">&copy; Millworks Custom Manufacturing (2001) Inc.</a><br />
+						<a href="http://studiofunction.com/" target="_blank" class="footer">Design &amp; Development by Function</a>
+					</div>
+	
+
+	</div><!--wrapper-->
+
+	
+</body>
+</html>
