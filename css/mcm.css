@@ -49,6 +49,10 @@ h2 {
 	text-transform: uppercase;
 	font: 600 1.25em/1.3em Helvetica Neue,Helvetica,Arial,sans-serif; /* 20px/26px divided by 16 */ }
 
+h2.capabilities {
+	color: #00467E;
+}
+
 
 #about p, #capabilities .note p, .column-noscript p, strong  {
  	font: 200 1.25em/1.3em Helvetica Neue,Helvetica,Arial,sans-serif; /* 20px/26px divided by 16 */
