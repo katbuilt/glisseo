@@ -110,7 +110,8 @@ img#mcm { float: left; width: 125px; height: 55px; margin-top: 33px;}
 	text-align: right;
  	font: 200 0.625em/1.5em Helvetica Neue,Helvetica,Arial,sans-serif; /* 10px/15px divided by 16 */
 	margin-top: 39px;
-	margin-left: 6px;
+	/*margin-left: 6px; <-- old value before i took off LOGIN*/
+	margin-left: 100px;
 }
 
 #logos span { display: none; }
